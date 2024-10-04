@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="https://st4.depositphotos.com/11486624/24816/v/600/depositphotos_248163784-stock-video-iot-internet-things-devices-symbols.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <form>
+        <div class="container">
+            <div class="login">
+                <img src="https://static.vecteezy.com/system/resources/previews/002/640/730/original/default-avatar-placeholder-profile-icon-male-vector.jpg" style="width: 360px; height:360px; border-radius: 100%; object-fit: cover; ">
+            </div>
+            <form>
+                <label>Username : </label>
+                <input type="text" id="myID" placeholder="Enter Username" name="username" required>
+                <label>Password : </label>
+                <input type="password" id="myPassword" placeholder="Enter Password" name="password" required>
+                <button type="submit" onclick="authentication()">Login</button>
+        </div>
+    </form>
+</body>
+
+</html>
